@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #0a0908;
+}
+
+.gradient-text {
+  background: linear-gradient(61deg, rgba(73,160,120,1) 0%, rgba(220,225,222,1) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.background-gradient {
+  background: linear-gradient(61deg, rgba(73,160,120,1) 0%, rgba(220,225,222,1) 100%);
+}
+
+.glass {
+  background: rgba( 255, 255, 255, 0.1);
+backdrop-filter: blur(9px);
+-webkit-backdrop-filter: blur(9px);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#message {
+  height: 80px;
+}
